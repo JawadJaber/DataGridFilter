@@ -77,5 +77,5 @@ Number of rows | Opening of the PopUp | Applying the filter | Total (PopUp + Fil
 100 000 | < 1 second | < 1 second | < 1 second 
 500 000 | ± 1.5 second | ± 1 second	| ± 2.5 seconds 
 1 000 000 | ± 3 seconds	| ± 1.5 seconds	| ± 4.5 seconds  
-## Demo ##
+## Demonstration ##
 ![datagrid image demo](capture.gif)
