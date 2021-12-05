@@ -74,19 +74,9 @@ To understand how the filter works, you can consult the article posted on [CodeP
             BasedOn="{StaticResource {ComponentResourceKey TypeInTargetAssembly=control:FilterDataGrid,
                                                            ResourceId=FilterDataGridStyle}}"
             TargetType="{x:Type control:FilterDataGrid}">
-            <Setter Property="Margin" Value="10,10,0,2" />
-            <Setter Property="AlternatingRowBackground" Value="WhiteSmoke" />
-            <Setter Property="AlternationCount" Value="2" />
-            <Setter Property="Background" Value="Transparent" />
-            <Setter Property="ColumnWidth" Value="*" />
-            <Setter Property="HorizontalGridLinesBrush" Value="LightGray" />
-            <Setter Property="VerticalGridLinesBrush" Value="LightGray" />
-            <Setter Property="VerticalScrollBarVisibility" Value="Visible" />
-            <Setter Property="VirtualizingStackPanel.IsVirtualizing" Value="True" />
-            <Setter Property="BorderBrush" Value="LightSlateGray" />
-            <Setter Property="BorderThickness" Value="1" />
-            <Setter Property="IsReadOnly" Value="True" />
+            <Setter Property="Margin" Value="10" />
             <Setter Property="RowHeaderWidth" Value="40" />
+			...
 </Style>
 ```
 
